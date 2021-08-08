@@ -144,6 +144,9 @@
         <item>com.custom.fonts</item>
     </string-array>
 
+    <dimen name="config_dialogCornerRadius">22.0dip</dimen>
+    <dimen name="config_buttonCornerRadius">12.0dip</dimen>
+
     <!-- Flag indicating whether the assist disclosure can be disabled using
          ASSIST_DISCLOSURE_ENABLED. -->
     <bool name="config_allowDisablingAssistDisclosure">true</bool>
