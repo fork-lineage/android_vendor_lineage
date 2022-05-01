@@ -32,6 +32,7 @@ endif
 PRODUCT_PACKAGES += \
     Duckduckgo \
     SimpleGallery \
+    CameraGo
 
 ifneq ($(TARGET_EXCLUDES_AUDIOFX),true)
 PRODUCT_PACKAGES += \

@@ -22,3 +22,14 @@ android_app_import {
         enabled: false,
     },
 }
+
+// CameraGo Browser
+android_app_import {
+    name: "CameraGo",
+    apk: "camerago.apk",
+    presigned: true,
+    overrides: ["Camera2"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
